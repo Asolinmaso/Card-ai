@@ -16,7 +16,7 @@ function getDb() {
     connectionString: connectionString,
     ssl: { rejectUnauthorized: false }
   });
-  
+
   // Refined DB interface for PostgreSQL compatibility
   db = {
     prepare: (sql) => {
