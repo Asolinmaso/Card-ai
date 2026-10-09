@@ -7,4 +7,8 @@ yarn-error.log*
 .DS_Store
 uploads/
 frontend/.next/
-
+.next/
+out/
+build/
+dist/
+.vercel
